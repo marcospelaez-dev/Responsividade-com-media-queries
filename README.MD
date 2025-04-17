@@ -1,3 +1,7 @@
+### Curso Alura Responsividade usando Media Queries
+
+# Aluno: Marcos Pelaez
+
 ![Alura Start](thumb.png)
 
 # Alura Start
