@@ -282,6 +282,11 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: var(--gap-2xl);
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .sobre-nos__beneficios--card {
@@ -361,6 +366,11 @@ body {
   border-radius: 10px;
   padding: var(--padding-l) 5.5rem;
   border: 1px solid transparent;
+
+  @media (max-width: 768px) {
+    flex: 1 1 50px;
+    max-width: 25%;
+  }
 }
 
 .nosso-impacto__estatistica.impacto-estudantes {
