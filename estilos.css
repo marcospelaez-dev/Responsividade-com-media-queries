@@ -50,6 +50,12 @@ h5 {
   font-family: var(--fonte-titulos);
   font-size: var(--fonte-size-xl);
   font-weight: 700;
+
+  @media (max-width: 768px) {
+    &:not(h1){
+      font-size: var(--fonte-size-l);
+    }
+  }
 }
 
 body {
@@ -214,6 +220,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 7rem 0;
+
+  @media (max-width: 768px) {
+    padding: var(--padding-xl) 0;
+  }
 }
 
 .quem-somos__texto-principal {
