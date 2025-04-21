@@ -222,6 +222,7 @@ body {
   padding: 7rem 0;
 
   @media (max-width: 768px) {
+    flex-direction: row-reverse;
     padding: var(--padding-xl) 0;
   }
 }
