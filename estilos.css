@@ -564,6 +564,11 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 8rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 3rem;
+    }
   }
 }
 
@@ -572,6 +577,10 @@ body {
   flex-direction: column;
   align-items: start;
   gap: var(--gap-l);
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 
   & > img {
     padding-bottom: var(--padding-l);
@@ -586,6 +595,10 @@ body {
   color: var(--cor-texto-branco);
   font-weight: 600;
   padding-bottom: var(--padding-m);
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 
   & > span {
     color: var(--cor-destaque-rosa);
